@@ -1,0 +1,12 @@
+.main-body{
+    padding: 10px;
+    background: url(../image/page-contact-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wapper-body{background-color: #ffffff;
+margin: 3px;}
+.content-shop{
+    margin:30px;
+}

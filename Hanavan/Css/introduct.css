@@ -1,0 +1,53 @@
+*{margin:0; padding:0;}
+.introduct{
+    height: 300px;
+    padding: 30px 0;
+    background: url(../image/breadcrumb_bg5.webp);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.introduct .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+    width: 100%;
+    border:none;
+}
+.introduct .home h3{color: #fff;}
+.introduct .link a{color: black;}
+.main ul{
+    list-style: inside;
+}
+.main-content{padding:  0 30px;
+margin: 40px;}
+.main-content h1{
+    color: #55acee;
+    padding: 0px 0px 15px 0px;
+    margin: 0px 0px 15px 0px;
+    border-bottom: 1px solid #f1f1f1;
+}
+.item-shop{
+    margin:30px;
+}
+.wapper-item-shop{margin-bottom: 30px;
+    overflow: hidden;}
+    .image{}
+.wapper-item-shop .image{
+    width:100%; 
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+.wapper-item-shop img:hover{
+    transform: scale(1.05);
+}
+.wapper-item-shop a{
+    color: #263c49;
+    display: block;
+}
